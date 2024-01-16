@@ -542,9 +542,11 @@ form input:focus {
   border: 1.54px solid var(--Gray-300, #d0d5dd);
   background: #fff;
   padding: 30px 20px;
+
 }
 .homepage .auction-parent-content {
   text-align: right;
+
 }
 .homepage .auction-parent-content > div > p:nth-child(1) {
   color: #272b2f;
@@ -578,3 +580,8 @@ form input:focus {
 }
 
 /* <!-- // ==============================||   Auctions ENd||============================== // --> */
+
+/* <!-- // ==============================||   Footer Start||============================== // --> */
+
+
+/* <!-- // ==============================||   Footer END||============================== // --> */
