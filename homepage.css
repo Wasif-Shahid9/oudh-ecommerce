@@ -82,6 +82,12 @@ input:focus {
 .topbar-content {
   width: 87%;
 }
+.topbar-content img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border: 2px solid red;
+}
 
 .logo-set,
 .logo-set * {
@@ -247,7 +253,7 @@ form input:focus {
 
 /* /////////////////// ////////// HEader Start */
 .header {
-  background-image: url("./images/homebackgroundgif.gif");
+  background-image: url("./src/assets/homepageimages/homebackgroundgif.gif");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -542,11 +548,9 @@ form input:focus {
   border: 1.54px solid var(--Gray-300, #d0d5dd);
   background: #fff;
   padding: 30px 20px;
-
 }
 .homepage .auction-parent-content {
   text-align: right;
-
 }
 .homepage .auction-parent-content > div > p:nth-child(1) {
   color: #272b2f;
@@ -582,6 +586,5 @@ form input:focus {
 /* <!-- // ==============================||   Auctions ENd||============================== // --> */
 
 /* <!-- // ==============================||   Footer Start||============================== // --> */
-
 
 /* <!-- // ==============================||   Footer END||============================== // --> */
